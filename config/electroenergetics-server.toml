@@ -60,6 +60,9 @@ componentDamage = true
 #.
 #Doesn't return empty spools on wire placement
 alternateWirePlacement = false
+#.
+#Bulbs prevent mob spawns even when they are off
+bulbsPreventMobSpawns = true
 
 #.
 #Alternator Values
@@ -269,9 +272,6 @@ alternateWirePlacement = false
 	#.
 	#Don't turn off unless you want to cook your TPS
 	optimizeGraph = true
-	#.
-	#Can improve solve times, but makes creative batteries not ideal sources
-	creativeBatteryThevenin = true
 	#.
 	#[EXPERIMENTAL] This describes how many times the simulation is run every tick.
 	# Default: 1

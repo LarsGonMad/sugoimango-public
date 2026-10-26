@@ -30,7 +30,7 @@
 	#If true, sublevel forceloading consumes OPAC/FTB forceload slots.
 	#If false, all activated claims get a free sub-level forceload.
 	#Has no effect if forceloadEnable is false.
-	#Default: false
+	#Default: true
 	providerSlotsForceload = false
 	#Master switch for sublevel forceloading. If false, no claim will ever forceload its sublevel,
 	#regardless of the per-claim forceload toggle, and providerSlotsForceload is ignored entirely.
@@ -43,3 +43,7 @@
 	# Default: 120
 	# Range: > 0
 	teleportCooldownSeconds = 120
+	#Safety timeout in seconds: how long an unloaded sublevel can remain temporarily loaded while its claim GUI is open. Default: 120 (2 minutes).
+	# Default: 120
+	# Range: > 10
+	tempLoadTimeoutSeconds = 120

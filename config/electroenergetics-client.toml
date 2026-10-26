@@ -24,3 +24,6 @@ debugNodeID = false
 #.
 #Display birds on wires.
 showBirdsOnWires = false
+#.
+#Display hint on items placeable in electrical panel.
+displayPanelTooltip = true
