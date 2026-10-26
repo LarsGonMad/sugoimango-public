@@ -1,0 +1,13 @@
+name = "SugoiMango Public"
+author = "stofzuiger"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ef368b7e8975a7428351ed0b7398dee898adb280e65c41c595f664734c482acb"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.265"
