@@ -1,0 +1,43 @@
+name: Build and Release Modpack
+n:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Refresh Packwiz Index
+        run: packwiz refresh
+
+      - name: Export Release Archives
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          packwiz modrinth export --output "modpack-${VERSION}.mrpack"
+          packwiz curseforge export --output "modpack-curseforge-${VERSION}.zip"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Release ${{ github.ref_name }}
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+          files: |
+            *.mrpack
+            *.zip

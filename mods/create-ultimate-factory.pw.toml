@@ -1,0 +1,13 @@
+name = "Create: Ultimate Factory"
+filename = "create_ultimate_factory-2.2.4-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ed0ff71df9bfe3b66b97c51a2834031084300a65"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8038954
+project-id = 978125

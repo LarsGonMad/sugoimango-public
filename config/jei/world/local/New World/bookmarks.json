@@ -1,0 +1,14 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"create:wrench"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aeronautics:aviators_goggles"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ftbquests:book"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:stressometer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:creative_motor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ftbfiltersystem:smart_filter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:configurator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fluxnetworks:flux_point"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fluxnetworks:flux_plug"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:upgrade_speed"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:upgrade_energy"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

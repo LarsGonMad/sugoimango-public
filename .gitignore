@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.zip
+*.mrpack
+mods/*.jar
+!mods/*.pw.toml
+logs/
+crash-reports/
+.cache/

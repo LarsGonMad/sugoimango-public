@@ -1,0 +1,8 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"mekanism:upgrade_speed"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:upgrade_energy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:upgrade_muffling"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fluxnetworks:flux_plug"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"fluxnetworks:flux_point","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]
