@@ -2,17 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/release.yml"
-hash = "df15d4805af677e958883b6cdcc251d9e83148bbcf6e78be5c412f59670b15f2"
-
-[[files]]
-file = "complementary-reimagined.pw.toml"
-hash = "fe2fb19ba4d0fec45626237b701d857ac3c7c961efd5b4b7ccfff6cd512872f8"
-metafile = true
-
-[[files]]
-file = "complementary-unbound.pw.toml"
-hash = "ec05a5f5bc7e0f4a29ec1c4c3ee31baef494e91f60e8239bd0e781f8f23d1b61"
-metafile = true
+hash = "f58fa94ab341834015e16a0875c80c18432cfc19cc0939f3966a7a021eae9140"
 
 [[files]]
 file = "config/Mekanism/client.toml"
@@ -17033,3 +17023,13 @@ hash = "4294204894e7606f1eed485a666d454c841e90c7bfdee08eb9d668474bb4a782"
 [[files]]
 file = "shaderpacks/Outdated ComplementaryUnbound_r5.9 + EP_1.10.0/shaders/world1/voxy_translucent.glsl"
 hash = "aa0a49fff1a950b23ccd11b24757bb7d9d30c7463a3155c27f3aa8fce31ba1cb"
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "fe2fb19ba4d0fec45626237b701d857ac3c7c961efd5b4b7ccfff6cd512872f8"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "ec05a5f5bc7e0f4a29ec1c4c3ee31baef494e91f60e8239bd0e781f8f23d1b61"
+metafile = true

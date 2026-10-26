@@ -1,5 +1,6 @@
 name: Build and Release Modpack
-n:
+
+on:
   push:
     tags:
       - 'v*'
@@ -22,10 +23,13 @@ jobs:
       - name: Install Packwiz
         run: go install github.com/packwiz/packwiz@latest
 
+      - name: Add Go to PATH
+        run: echo "$HOME/go/bin" >> $GITHUB_PATH
+
       - name: Refresh Packwiz Index
         run: packwiz refresh
 
-      - name: Export Release Archives
+      - name: Export Release Packages
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
           packwiz modrinth export --output "modpack-${VERSION}.mrpack"
@@ -39,5 +43,5 @@ jobs:
           prerelease: false
           generate_release_notes: true
           files: |
-            *.mrpack
-            *.zip
+            modpack-*.mrpack
+            modpack-curseforge-*.zip
