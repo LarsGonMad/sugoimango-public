@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "45861F5713A94E6D"
+	id: "1F8B29D3C85088C3"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "0CB325640A8F4756"
+		rewards: [{
+			id: "505CE8C5377F92FA"
+			type: "xp"
+			xp: 10
+		}]
+		shape: "gear"
+		size: 1.5d
+		tasks: [{
+			id: "68A08846B3956761"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

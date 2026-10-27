@@ -1,0 +1,560 @@
+{
+	autofocus_id: "2F1BF9530E3411D5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_aeronautics"
+	group: "6755C96651D889F2"
+	icon: {
+		id: "aeronautics:aviators_goggles"
+	}
+	id: "297C5C29C66AEB51"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "573A73CAE9070575"
+			rewards: [{
+				id: "2401AA35A39FDF7A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0EDA28F2FCE8918B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["573A73CAE9070575"]
+			id: "6E911A0CD6362627"
+			rewards: [{
+				id: "542789F9414E89B6"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					count: 12L
+					id: "5B7A4BC5D21FDDCD"
+					item: { count: 1, id: "aeronautics:white_envelope" }
+					type: "item"
+				}
+				{
+					id: "1A01E00DBF4CE6E0"
+					item: { count: 1, id: "aeronautics:adjustable_burner" }
+					type: "item"
+				}
+				{
+					id: "3E6313D0EE9FB9B3"
+					item: { count: 1, id: "aeronautics:steam_vent" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["573A73CAE9070575"]
+			id: "66151FEC85144CC8"
+			rewards: [{
+				id: "56AB58051A29E279"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0372F3B87661D340"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(aeronautics:levitite))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["573A73CAE9070575"]
+			id: "0263482A02DE22F2"
+			rewards: [{
+				id: "1845099FB6B766B9"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6E8227D656691BE1"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0263482A02DE22F2"]
+			id: "180E04713DBEE5FF"
+			rewards: [{
+				id: "507F4BA2C8EDB13E"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6D847B69197FEA96"
+				item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["573A73CAE9070575"]
+			id: "6EEBA5BD24705B14"
+			rewards: [{
+				id: "2FAF3A58AA1EF0D5"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "445792B78114D0F7"
+				item: { count: 1, id: "aeronautics:andesite_propeller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6EEBA5BD24705B14"]
+			id: "34456E8B0350B0C9"
+			rewards: [{
+				id: "1E3A16A7C855234B"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "080B3F35E6E52B80"
+				item: { count: 1, id: "aeronautics:smart_propeller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "2F1BF9530E3411D5"
+			rewards: [{
+				id: "21810A12D1E72801"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "00079D2299E94C00"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "46D3408CC0C3AB6E"
+			rewards: [{
+				id: "4318E588B32354A0"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					id: "52A66CEEEBEDFF92"
+					item: { count: 1, id: "simulated:rope_coupling" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7D26A011DC1633CD"
+					item: { count: 1, id: "simulated:rope_connector" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E65FC9ACB820BF8"]
+			id: "6502FCB50EBB840C"
+			rewards: [{
+				id: "26AC9EEF465BB19C"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "682235F3C8E59AC1"
+				item: { count: 1, id: "simulated:iron_handle" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "6A8650E91360A445"
+			rewards: [{
+				id: "5E1255DB66B8D67F"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6125320A2F4D9491"
+				item: { count: 1, id: "simulated:velocity_sensor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "528645C47F64402A"
+			rewards: [{
+				id: "5609DDA66779349A"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5D9DA378D527AEB6"
+				item: { count: 1, id: "simulated:altitude_sensor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"460E885B76330B20"
+				"2F1BF9530E3411D5"
+			]
+			id: "23F2CBB4D8318AC1"
+			rewards: [{
+				id: "6208E8B241AF25CE"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "577AFDA79D8765E5"
+				item: { count: 1, id: "simulated:gimbal_sensor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "409FC8A2FE749635"
+			rewards: [{
+				id: "032712DD0D23005C"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					id: "48C9F4A351781080"
+					item: { count: 1, id: "simulated:laser_sensor" }
+					type: "item"
+				}
+				{
+					id: "2D03DFDC52AC5192"
+					item: { count: 1, id: "simulated:laser_pointer" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "460E885B76330B20"
+			rewards: [{
+				id: "5B91AA4277E2298D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "17024E7F326691B3"
+				item: { count: 1, id: "simulated:gyroscopic_mechanism" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "120B2C576AE41B98"
+			rewards: [{
+				id: "5B54A83DEAD506BD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5E9FD1F869E6E3E8"
+				item: { count: 1, id: "simulated:directional_gearshift" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "6FDBBD1B2C43C932"
+			rewards: [{
+				id: "3959ADF6BDE60B0D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6EC5CBAC313C6028"
+				item: { count: 1, id: "simulated:torsion_spring" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "1F15546D94B3B975"
+			rewards: [{
+				id: "27A6F91D0F4486DD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				count: 2L
+				id: "6AC46ADE7185F1F4"
+				item: { count: 1, id: "simulated:redstone_magnet" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "7036E7CE5FF4A313"
+			rewards: [{
+				id: "6C66D856B7C57CFD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "15309FD1F99CD240"
+				item: { count: 1, id: "simulated:spring" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E65FC9ACB820BF8"]
+			id: "667882191A360C13"
+			rewards: [{
+				id: "6B6FD69AFE97F3EE"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				count: 2L
+				id: "51ABF3F306EBD267"
+				item: { count: 1, id: "simulated:white_symmetric_sail" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "4B4B9488BC0E605C"
+			rewards: [{
+				id: "5C6DF67819155FFE"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [
+				{
+					id: "33926F87C6D9F22E"
+					item: { count: 1, id: "simulated:navigation_table" }
+					type: "item"
+				}
+				{
+					id: "7C5F4FA613AEA13E"
+					item: { count: 1, id: "minecraft:lodestone" }
+					type: "item"
+				}
+				{
+					id: "0D7F564317585F74"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "5CA087A2EDD8476F"
+			rewards: [{
+				id: "3458FF953F99B065"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "39E08E121F2FB57A"
+				item: { count: 1, id: "simulated:optical_sensor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0E65FC9ACB820BF8"]
+			id: "729D3CDB1F0D747D"
+			rewards: [{
+				id: "3C9CA28C30F1644C"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				count: 2L
+				id: "5F691C23415C3E3C"
+				item: { count: 1, id: "simulated:docking_connector" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E65FC9ACB820BF8"]
+			id: "18505CEB54C15A49"
+			rewards: [{
+				id: "4223E6045F3135F6"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "169EF74555763D20"
+				item: { count: 1, id: "simulated:throttle_lever" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E65FC9ACB820BF8"]
+			id: "25D35924548D7E63"
+			rewards: [{
+				id: "59B602A44239417A"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "379FABA775B698C1"
+				item: { count: 1, id: "simulated:steering_wheel" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "0E65FC9ACB820BF8"
+			rewards: [{
+				id: "03B4088D117C557E"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "50AE25988E7F34CD"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "297FCAAFA1756BC2"
+			rewards: [{
+				id: "5A5F67A4FC29C65F"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "17A31D202C3C11A5"
+				item: { count: 1, id: "simulated:swivel_bearing" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E65FC9ACB820BF8"]
+			id: "4E17E42D8A41A909"
+			rewards: [{
+				id: "490BBEAD5AFA071D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7777D4E75BBD82E9"
+				item: { count: 1, id: "simulated:linked_typewriter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "51A4A4C22BA76068"
+			rewards: [{
+				id: "39C64EA5D1A79151"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "44F733C750F88FFD"
+				item: { count: 1, id: "simulated:analog_transmission" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F1BF9530E3411D5"]
+			id: "7902F2CEC0C37EBB"
+			rewards: [{
+				id: "62091A2264B03FA4"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7895F13637F1F905"
+				item: { count: 1, id: "simulated:red_portable_engine" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "2F1D7C85FD962783"
+			rewards: [{
+				id: "07781B7F804875DF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "613FA149A19A8B74"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+}

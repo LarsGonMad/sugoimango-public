@@ -1,0 +1,39 @@
+{
+	id: "76EB4E094C000252"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			id: "01353D877AD6AFB2"
+			type: "xp_levels"
+			xp_levels: 1
+		}
+		{ id: "4844977ADD31C70E", item: { count: 1, id: "create:empty_blaze_burner" } }
+		{ id: "53234A366059F7B4", item: { count: 1, id: "create:brass_casing" } }
+		{
+			count: 2
+			id: "07B1ED297DB56E80"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+		}
+		{ id: "627DDAE635E009B6", item: { count: 1, id: "create:brass_hand" } }
+		{
+			count: 4
+			id: "0BDB313F3E227ED9"
+			item: {
+				count: 1
+				id: "create:polished_rose_quartz"
+			}
+		}
+		{
+			count: 2
+			id: "7E7D51C66264FB34"
+			item: {
+				count: 1
+				id: "create:brass_scaffolding"
+			}
+		}
+	]
+}

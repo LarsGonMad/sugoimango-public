@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sugoimango"
+	group: ""
+	icon: {
+		id: "minecraft:golden_carrot"
+	}
+	id: "797C30E6A7ACD58A"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6CA00B70D429CA93"
+			rewards: [{
+				id: "02E6933DB0812679"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "610B7F43065270EC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CA00B70D429CA93"]
+			id: "1C8E8B8E69A6E27C"
+			rewards: [{
+				id: "3A44544098DB27E5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "50EA8391ED9B0FA0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CA00B70D429CA93"]
+			id: "2269EC340C40C6EA"
+			rewards: [{
+				id: "55766206D58227BF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2F53B4CFB48C167E"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CA00B70D429CA93"]
+			id: "7A8A9319773496D5"
+			rewards: [{
+				id: "28C54F209541C1FF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5036B571D5C14D6C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CA00B70D429CA93"]
+			id: "3FEA75FC3E0E5888"
+			rewards: [{
+				id: "53D9C0776E81CD29"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "093C16798632AEF6"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	tags: ["main"]
+}

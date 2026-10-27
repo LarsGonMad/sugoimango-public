@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "45861F5713A94E6D"
+	icon: {
+		id: "mekanism:metallurgic_infuser"
+	}
+	id: "3AAA63BD2D947B60"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "57569E8CE3EB70D7"
+		rewards: [{
+			id: "6F6C5249356DEEDC"
+			type: "xp"
+			xp: 10
+		}]
+		shape: "gear"
+		size: 1.5d
+		tasks: [{
+			id: "6607B03D9B387210"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

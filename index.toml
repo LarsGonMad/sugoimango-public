@@ -2,7 +2,17 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/release.yml"
-hash = "f58fa94ab341834015e16a0875c80c18432cfc19cc0939f3966a7a021eae9140"
+hash = "da96e88eb59f0116a94bff7048f2f17f742627cce40913989d279a7dc8944100"
+
+[[files]]
+file = "complementary-reimagined.pw.toml"
+hash = "fe2fb19ba4d0fec45626237b701d857ac3c7c961efd5b4b7ccfff6cd512872f8"
+metafile = true
+
+[[files]]
+file = "complementary-unbound.pw.toml"
+hash = "ec05a5f5bc7e0f4a29ec1c4c3ee31baef494e91f60e8239bd0e781f8f23d1b61"
+metafile = true
 
 [[files]]
 file = "config/Mekanism/client.toml"
@@ -507,6 +517,78 @@ hash = "1aad536e4bf4ac32fd3f994e43af2792e5347ac37e40d1f8430dde45c9468f5c"
 [[files]]
 file = "config/ftbquests.zip"
 hash = "e817d572dca13b03036fdbdf1c5b52655099970b5c4bc4af119975bf7152e793"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "3d254c409cde7a3706eb2d2cb71596abc0e2ee299c749b55658afac4832e34f7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
+hash = "4c9a09133dad30c4e3395f23f382f2cbede4698c00780d697637f28997209cb8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create.snbt"
+hash = "704f3e961b1cd85b8c162d7553b269170f409d66bcfab84631fd4b09de9c8f0d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_aeronautics.snbt"
+hash = "a5c759e25c98da21d1801ac89a2b85055d578b1ce08b9a74ed1db002044a030e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_crafts__additions.snbt"
+hash = "0ca9684d1d971a43b66404b98b469bed8800a7eda3856944c1f8f65a96db7a9b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_diesel_generators.snbt"
+hash = "ebbe3cb4cac206a6722268eaa48730b66b66582bd501dd20d3f63e90d3d25202"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_electro_energetics.snbt"
+hash = "9bda13528c7eaf39a7830d0e2c8623c7a485dd513a5c440975cc29e7776e1b34"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_other_addons.snbt"
+hash = "f454fb14b3a9e323f315efacc7e243d4cb54b936934d586efbd4998e0e49f9ee"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/industrial_foregoing.snbt"
+hash = "e63107868611cb8bad20db914d9f56fe10f64d77279e8220fb91a6e255d9937b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mekanism.snbt"
+hash = "c9b73dbf31239c797a946548f16948b4c2df65c89613f681e2d6b472c61a3aae"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/storage.snbt"
+hash = "52e9b7eff61ac15f7a61f8db2293bb73cc2162795ba002b615d9450474ac9824"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/sugoimango.snbt"
+hash = "5abfc5b47548671f873c32943e951aef836673f82810c120a2eba10afca36e0d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/the_factory_must_grow.snbt"
+hash = "cd4c94384050aa4035477709729e40bd7b464050cc50ec354dd37c0830715f07"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/trains.snbt"
+hash = "8ceb889523d75e0aeb90d1866c494c3e0d1c82eaec1431ed7fd6b2271ddf8398"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "9e9018497da6ebc773deb2d8b65643da0da6a37f9abaee5c7a990228104fa4a3"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "f6f9853e79abae80ae7f6468ba58d1219f4dc2766f128e95fa18fc6be0dc95f2"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/64e0e08dab23526f.snbt"
+hash = "36f2ff98016f8b148eefac63aee30caf700be15c4f68c4017c05ba6302a6565f"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/76eb4e094c000252.snbt"
+hash = "f67940ba27a66813fa9e1baa2eb5ba70f7d227165780e34b1ffbd7cd52040187"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1185,6 +1267,42 @@ file = "journeymap/defaultconfig.json"
 hash = "16e6b0d27207d3641a695a6c7f2b85d5888d0e0efb1e9131ccc54464eb51695f"
 
 [[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/example_item.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/client_scripts/main.js"
+hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
+
+[[files]]
+file = "kubejs/config/client.json"
+hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
+
+[[files]]
+file = "kubejs/config/common.json"
+hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/config/web_server.json"
+hash = "4277143ff49e9e71df2deed71059d2ba6e2118e620dd827513dba7b212ab6035"
+
+[[files]]
+file = "kubejs/server_scripts/main.js"
+hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+
+[[files]]
+file = "kubejs/startup_scripts/main.js"
+hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+
+[[files]]
 file = "mods/accelerated-decay.pw.toml"
 hash = "0c31f109b6c4dca94a153fbdd827bbd5f96149fd5c7863ba0ba41fcab801afe0"
 metafile = true
@@ -1247,6 +1365,11 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "84fd12a30b0fecc1df5c03b6ec1bcbd6263211e65e17f24075a54773af6bfaff"
+metafile = true
+
+[[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
 metafile = true
 
 [[files]]
@@ -1386,7 +1509,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "b41c3e165e3550a1e4fdc60091cfcdc79361a02983ea62258045bdd5a84a90bf"
+hash = "056aacc6cc26cdbb69f91a55c1593cb4fb8106dcd4aaa3c1c0ca2c9019caddd8"
 metafile = true
 
 [[files]]
@@ -1586,7 +1709,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "c6aba607b0c335394c38e9e20fdff3d27c494d944099e6770629e907eaf7e47e"
+hash = "0431771ba664f762587b1d876b0cd0ef4ca0751aed1a5604dfb5f4190f29d409"
 metafile = true
 
 [[files]]
@@ -1671,7 +1794,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom.pw.toml"
-hash = "22b1837cb461a88d060bb051bf99817483cc9005d827cb6287123159de4added"
+hash = "c410f9944521f0ce90341eaa958c00ee6d396d68729b91248f6cf39d868eedfe"
 metafile = true
 
 [[files]]
@@ -1687,6 +1810,21 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "21a5deb5da882d9f3eb4eaf7f0cf77f52737e1e6b44d2f691bf10fda9c86d790"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-mekanism.pw.toml"
+hash = "d8e177615c38e56e8f712f9144c0f9f50e74adf5fe88c7fb0aa88e33cb1dbcdc"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "00bacfc5a98d9b0dff90bbad503def28abf970a2061c9456f721e442bc32ab29"
 metafile = true
 
 [[files]]
@@ -1790,6 +1928,11 @@ hash = "75d42d0a0bcfbcce376fb229f72b75e3a40592fdff5490b997c19ef439a9c832"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
+metafile = true
+
+[[files]]
 file = "mods/ping-wheel.pw.toml"
 hash = "fc58a3e283c0769d6861b3d07c0a919ba8a35dbca9fa040fbb574a1f5d7bad1a"
 metafile = true
@@ -1820,6 +1963,11 @@ hash = "330eae6dd751b70d4761f5fb556bc476f693549f3eb42ff7f441e1cd5bfe3cfb"
 metafile = true
 
 [[files]]
+file = "mods/ponder.pw.toml"
+hash = "763ca3a7d927dfd1ece4d8cc2aedce1acf29614cf7d58b77234f8c748d5f7802"
+metafile = true
+
+[[files]]
 file = "mods/rechiseled-create.pw.toml"
 hash = "5117690c5af416704847834d5797e493206c30ba5e963a3e08123717834b29f3"
 metafile = true
@@ -1827,6 +1975,11 @@ metafile = true
 [[files]]
 file = "mods/rechiseled.pw.toml"
 hash = "ae8e448fe3c56667203cd20d9e96058594a8e263d96bc64fbcaebd07b89d23c9"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
 metafile = true
 
 [[files]]
@@ -1866,7 +2019,7 @@ metafile = true
 
 [[files]]
 file = "mods/smooth-chunk-save.pw.toml"
-hash = "75a42a9eba356b81f33bb160c5da533e7fdf90b478b43bc463d37264c47bcf4e"
+hash = "234a971a73102ad879aae250250ec29a2562b879134380427e9626ae895949b4"
 metafile = true
 
 [[files]]
@@ -1886,12 +2039,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "735c9645b3746ed1b428a3ba5bfc5fcfe33fac132d4fa6924b566c0ba5e1df11"
+hash = "538e9c6dab75c9f2f8b029fe74014edad7cbf8d06df910b2a4c16d14c1c32ced"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "dfa2cefa3635718ab5f6d66d4841cbb1f1cf4bb3ccb262cf86b19b1b1e2aca69"
+hash = "4190fffc52da4f2a053849ad4971abe1e7dbe1cddb52415c8a604c91d0d23dd3"
 metafile = true
 
 [[files]]
@@ -1901,7 +2054,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "0e1b01e2153e21799c09d48a49850c694a83674d63c9f47ec32c288325f45878"
+hash = "33a983b383f0035c9ae2856f88118e42ce97c2d3d4a0b85df217c451b99d3da0"
 metafile = true
 
 [[files]]

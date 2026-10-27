@@ -1,0 +1,182 @@
+{
+	chapter.06A62073D40457F6.title: "Create: Electro Energetics"
+	chapter.087EA36B0BC126CC.title: "Create: Other Addons"
+	chapter.1C35E54A5A178801.title: "Create: Trains"
+	chapter.1D2FEAA7F8811AC8.title: "Applied Energistics 2"
+	chapter.1F8B29D3C85088C3.title: "Industrial Foregoing"
+	chapter.27F7E8962DB431D3.title: "Create: The Factory Must Grow"
+	chapter.297C5C29C66AEB51.title: "Create Simulated/Aeronautics/Propulsion"
+	chapter.2B3215D582072127.title: "Create: Diesel Generators"
+	chapter.31B15B8090007B6B.title: "Create"
+	chapter.3AAA63BD2D947B60.title: "Mekanism"
+	chapter.4732D2A4E60EE0BB.title: "Storage"
+	chapter.78B801B6C93A7D1D.title: "Create: Crafts and Additions"
+	chapter.797C30E6A7ACD58A.title: "&6SugoiMango&r"
+	chapter_group.45861F5713A94E6D.title: "Other"
+	chapter_group.6755C96651D889F2.title: "Create"
+	quest.030FC8C5FD55E398.quest_desc: ["There are a bajilion ways to move items and rotation in create. All have their upsides and downsides, specific use cases and cost."]
+	quest.030FC8C5FD55E398.title: "Moving Rotation and Items"
+	quest.050FFE0ED7657325.quest_desc: ["A &lMechanical Drill&r will mine the block what's in front of it."]
+	quest.050FFE0ED7657325.quest_subtitle: "Your drill is the drill that will pierce the heavens!"
+	quest.0C60F951E38DDE2C.quest_desc: ["The &lHand Crank&r makes a small bit of power, but it costs you saturation."]
+	quest.0CD498AB800E806C.quest_desc: [""]
+	quest.0CD498AB800E806C.quest_subtitle: "The Goat Himself"
+	quest.10831EF470D379D9.quest_desc: [
+		"These are pretty much necessary to get if you work with Create."
+		""
+		"The &lWrench&r allows you to easily break Create blocks and rotate certain Create blocks."
+		"While the &lEngineer's Goggles&r allows you to see current &csu&r usage on shafts."
+	]
+	quest.10831EF470D379D9.title: "Tools"
+	quest.11A4BDBA998D121B.quest_desc: ["Obtained by compacting seeds into &lPlant Oil&r."]
+	quest.11E9FB34DEB2A72A.title: "Setting up a Pumpjack"
+	quest.13B796299CDC5C0C.quest_desc: ["An &lEncased Fan&r allows you to process items in front of it by modifying the air it blows or sucks."]
+	quest.1409E92DF0511508.quest_desc: ["A &lDeployer&r is used for various processes. For example, it can apply an given item to a different item on a Depot under it. It can be used in a variety of ways, all just as useful."]
+	quest.15AD03531749D55E.quest_desc: ["&lSophisticated Storage&r is also a thing and has the same progression (kinda)."]
+	quest.160A0E5581BA8318.quest_desc: ["A &lTrain Station&r is used to make your first train, but also to use as a stop."]
+	quest.18051424A649D91E.quest_desc: ["&lAndesite Casings&r are used for various machines and blocks. You get this by applying an andesite alloy on a stripped log of any kind."]
+	quest.18D993F41B4023EA.quest_desc: ["The ME system in Applied Energistics 2 is literally the goat."]
+	quest.18D993F41B4023EA.title: "Applied Energistics 2 Storage"
+	quest.1ABF47C665B542BA.quest_desc: [
+		"&lCreate&r uses &7rotation&r to power its machines and provides many ways to automate resources."
+		""
+		"It is recommended to &ePonder&r everything you come across, to be honest."
+	]
+	quest.1ABF47C665B542BA.quest_subtitle: "Welcome to Create"
+	quest.1ABF47C665B542BA.title: "Create"
+	quest.1C7AE6074211313A.quest_desc: ["&lCogwheels&r transfer &7rotation&r just like shafts, but can also be used to as gearing. Using gear ratios, you can make a shaft turn slower, but make a machine use less &cStress Units (su)&r."]
+	quest.1C7AE6074211313A.title: "Cogwheels"
+	quest.1C8E8B8E69A6E27C.quest_desc: ["&lCreate&r is the main focus of this modpack. It features lots of content, even more with the addons available in this modpack."]
+	quest.1C8E8B8E69A6E27C.title: "Create"
+	quest.1D0E61FA1810D150.quest_desc: ["A&l Fluid Tank&r can hold &a8&r buckets of liquid. The downside is that you can't interact with it normally, you need to pump a fluid in or create a Fluid Hatch."]
+	quest.1DEE18A51B95A674.quest_desc: ["The Rotation Speed Controller allows you to exactly choose a rotation speed."]
+	quest.2024EF6F570189A7.quest_desc: ["Create has a ton of miscellaneous items that are meant as decoration or something else."]
+	quest.2269EC340C40C6EA.quest_desc: ["&lApplied Energistics 2&r is primarily used for its &3digital storage&r network. Not only can it keep your items, but it can use them in a variety of ways. The mod allows you to implement on-demand auto-crafting with complex recipes. Additionally, it provides wireless and cross-dimensional access with Wireless Terminals. Even just this is scratching the surface."]
+	quest.2269EC340C40C6EA.title: "Applied Energistics 2"
+	quest.22934BB68E69293A.quest_desc: ["&lBrackets&r can hold a shaft. It's purely for decoration."]
+	quest.22D2BAD8B31BCBF1.quest_desc: ["A &lVault&r is like a Fluid Tank. It holds items but you can't directly interact with it. An Item Hatch or Funnels will help you control what goes in and out the Vault."]
+	quest.25016DB852083314.quest_desc: ["The shaft of a &lValve&r determines how much fluid it lets through."]
+	quest.251C42B2720951F4.quest_desc: ["A &lMechanical Belt&r has the ability to move items when powered by &7rotation&r. You can right click items on the belt to grab them. Just like Shafts, you can right click belts with Casings to change the texture."]
+	quest.251C42B2720951F4.quest_subtitle: "Satisfactory 101"
+	quest.25413F8DDE4F25DC.quest_desc: ["A &lFluid Interface&r allows you to transfer fluid from or to a mechanism."]
+	quest.27B3152A440C5CA5.quest_desc: ["A &lGearshift&r inverts &7rotation&r when receiving a Redstone signal."]
+	quest.295216F773887CF0.quest_desc: ["&lTrain Signals&r are used to control not-player controlled trains."]
+	quest.2AF5FC7CBC878281.quest_desc: ["&lWater wheels&r are one of the easiest starting power sources from Create. Just place water above or next to it and let it flow in the direction you want. They can also be placed 'laying down' which might be handier in some cases."]
+	quest.2F1BF9530E3411D5.quest_desc: [
+		"&lCreate: Simulated&r adds real life physics to Minecraft!"
+		""
+		"(I know too little of this to give descriptions. Pondering will do the trick!)"
+	]
+	quest.2F1D7C85FD962783.title: "Create Propulsion: Simulated"
+	quest.32B7868E54F145CD.quest_desc: ["Makes more &csu&r."]
+	quest.32D4F07722338751.quest_desc: ["Trains run on tracks. "]
+	quest.32D4F07722338751.title: "Trains"
+	quest.35243323F6CDD5E7.quest_desc: ["&lTrain Observers&r give a Redstone signal if a train passes by them. They can be filtered on cargo."]
+	quest.35EBA3896CFC4FD9.quest_desc: ["&lShafts&r transfer &7rotation&r. Casings can be applied to them by right clicking on the shaft with a valid casing."]
+	quest.35EBA3896CFC4FD9.title: "Shaft"
+	quest.369B8EA909771B6F.quest_desc: [
+		"A &lSteam Engine&r can make tons of su while still being fully automated."
+		""
+		"Water needs to be provided to the Fluid Tanks. You can do this with Fluid Pipes from Create, Pipez or Mekanism. A Fluid Pump from Create can pull water from an infinite water source."
+		""
+		"Alternatively, you can use a Fluid Drawer from Functional Storage to generate water by using an upgrade) and pipe that instead."
+		""
+		"One or multiple Blaze Burners can be placed under the Fluid Tanks to heat up the water inside. You can provide them with Lava to make more power. (More Steam Engines recommended!)"
+		""
+		"Lava can be obtained with a vanilla Minecraft lava farm or a Fluid Drawer from Functional Storage again. The latter is prefered because of it's consistent Lava generation."
+	]
+	quest.3735156D16451F2A.quest_desc: ["&lGearboxes&r can be used to invert &7rotation&r or make turns."]
+	quest.3735156D16451F2A.title: "Gearbox"
+	quest.3E83007E37F074E8.quest_desc: ["A &lFunnel&r is like a chute but sideways."]
+	quest.3EC90649BE05C48A.title: "Create: The Factory Must Grow"
+	quest.3FEA75FC3E0E5888.quest_desc: ["&lIndustrial Foregoing&r has a collection of machines which makes some resources easier to automate."]
+	quest.4133EC4272EE0E17.quest_desc: ["The &lDepot&r holds one a single type of item, from 1 to a full stack at once."]
+	quest.416967DB73A9A180.quest_desc: ["&lCrushing Wheels&r crush items when placed two blocks apart and if they spin in the opposite direction."]
+	quest.4350B4A77790ED9C.quest_desc: ["If you want to automize trains, you can put a passive animal on a seat, on a train and give them a &lTrain Schedule&r to follow."]
+	quest.480A9D3F0221F17D.quest_desc: ["A &lSpout&r fills items under it with a fluid. You can put a Depot under it to easily fill up items."]
+	quest.49320E559787C14C.quest_desc: [""]
+	quest.4991AA98ED97E11A.quest_desc: ["An activated &lBlaze Burner&r heats up a Basin or a Fluid Tank above it. If given fuel in the form of Coal, Lava, etc. it provides more heat."]
+	quest.4BDEC9D3FCC48552.title: "Blast Furnace"
+	quest.4CB1C815745026E7.title: "Coke Oven"
+	quest.52C92D4F9CDB3DAA.quest_desc: ["A &lMechanical Saw&r can cut trees, convert stones into different variants and much more."]
+	quest.53152DEDE37B8484.quest_desc: ["A &lMechanical Mixer&r has tons of recipes to easily make or automate a resource. It needs a Basin."]
+	quest.53FA9C4BEBACB94C.title: "Distillation"
+	quest.54817CCF3DDE99D4.quest_desc: ["It's easier to get &lSteel Ingots&r via Mekanism than like this, just saying..."]
+	quest.54817CCF3DDE99D4.title: "Steel"
+	quest.573A73CAE9070575.quest_desc: ["&lCreate: Aeronautics&r builds further on Create: Simulated and adds a couple extra's."]
+	quest.57569E8CE3EB70D7.quest_desc: [""]
+	quest.58BBD408D21E80F0.quest_desc: ["The &lMechanical Pump&r pulls liquids and pushes them further through the pipe network."]
+	quest.5949B4C34E835630.quest_desc: ["&lBrass Casings&r are used for complex machinery in Create."]
+	quest.59F35753387A974F.quest_desc: ["Create has various &lprocesses&r that can make new items, make items more efficiently or differently."]
+	quest.5C04A744C7E7B920.quest_desc: [
+		"A &lMechanical Press&r allows you to make plates and stuff. It can also compact items by using a Basin. Check out its recipes (press 'U' on it and change through the tabs at the top) for its various uses."
+		"A &lDepot&r can be used to keep an item in place to be pressed."
+	]
+	quest.5C1225456929C777.quest_desc: ["Obtained by mixing Water with Plant Oil in a heated Mechanical Mixer."]
+	quest.5C9E3958EDE1B15A.quest_desc: ["Storage Interfaces can interact with each other and allow item throughput. It's most commonly used on mechanisms."]
+	quest.5F3C23E475D7B72D.quest_desc: ["Create: Copycats+ add tons of Copycat Blocks. You can right click such blocks with any full block, and it will copy that texture onto it."]
+	quest.601D7D41F6EEA281.quest_desc: ["You need &lTrain Controls&r to control your train."]
+	quest.60E6EDD2139DFA46.quest_desc: ["A &lValve Handle&r lets you set an angle with high precision."]
+	quest.6234F4EE3714387D.quest_desc: ["A &lTunnel&r can be used to split or merge conveyors, or just to cover them."]
+	quest.6323E9732AF4E85A.quest_desc: ["An &lItem Drain&r allows you to 'drain' items. Wow. It's used to empty buckets or @Mekanism tanks."]
+	quest.6334F2EF12BA671B.quest_desc: ["&lTrain Casings&r are used in combination with a Train Station to make your trains. Placing a Train Station makes the train's wheels."]
+	quest.63694F85949F59FD.quest_desc: ["&lBrass&r gets used for a variety of advanced Create features."]
+	quest.63694F85949F59FD.title: "Brass Age"
+	quest.66151FEC85144CC8.quest_desc: ["&lLevitite&r can keep your mechanism afloat, but it won't gain altitude on its own."]
+	quest.663A9E04D3B98FD9.quest_desc: [
+		"An &lAdjustable Chain Drive&r can influence the rotation speed depending on if it's getting a Redstone signal."
+		"(You might want to Ponder for this one...)"
+	]
+	quest.6927DA24A701A5FB.quest_desc: ["&lSuper Glue&r makes blocks stick together as if it were Slime Blocks. Very important when making mechanisms."]
+	quest.6B86059DCB589B38.title: "Tires"
+	quest.6BF9382935D3A1B0.quest_desc: ["&lChain Conveyors&r can be used to transfer &7rotation&r across relatively long distances."]
+	quest.6BFB4838D20C0DAF.quest_desc: ["Holds items and fluids."]
+	quest.6CA00B70D429CA93.quest_desc: [
+		"The &6SugoiMango&r questlines are divided into their subject or mod. There are more mods than shown here, but these are the heart of the modpack (in my opinion)."
+		""
+		"These quests are all written and made by me (stofzuiger/LarsGonMad). Please do not use them in any modpack without my permission."
+	]
+	quest.6E911A0CD6362627.quest_desc: ["Make a Hot Air Balloon!"]
+	quest.70FCCB0A4CF85F8A.quest_desc: ["With a &lFluid Hatch&r you can easily interact with a Create Fluid Tank."]
+	quest.71187B5571434AEB.quest_desc: ["&lEncased Chain Drives&r provide a very flexible way to move &7rotation&r. Connected Encased Chain Drives do not invert rotation."]
+	quest.74727BC62B3C852E.quest_desc: ["There are many ways to organize your storage. Here are a couple of ways to improve your storage system."]
+	quest.74867C6529E40B06.quest_desc: ["These machines can be used to give more info about power generation."]
+	quest.75870FEC3BFC942A.quest_desc: ["A &lChute&r pulls items from above it and drops the item below it. Using an Encased Fan, items can be moved upwards through the Chute."]
+	quest.75D78D2178FD8D1D.quest_desc: ["A &lClutch&r will connect both sides when given a Redstone signal."]
+	quest.76661D94227D479C.quest_desc: ["Hell."]
+	quest.7A8A9319773496D5.quest_desc: ["&lMekanism&r implements high-tech machinery, powerful energy generation, tools and much more."]
+	quest.7D01EB587FF45708.quest_desc: ["A &lBlaze Burner&r can be activated by right clicking a Blaze with it."]
+	quest.7DF262F231B9BE9D.quest_desc: ["You can make &lTrain Signs&r to decorate your tracks."]
+	quest.7E78FE2C607F1854.quest_desc: ["&lMechanical Crafters&r can make special recipes when powered with &7rotation&r."]
+	reward_table.64E0E08DAB23526F.title: "Create Common Reward"
+	reward_table.76EB4E094C000252.title: "Create Rare Reward"
+	task.00079D2299E94C00.title: "Create: Simulated"
+	task.07E2263A912F96C7.title: "Moving rotation and items"
+	task.093C16798632AEF6.title: "Industrial Foregoing"
+	task.0EDA28F2FCE8918B.title: "Create: Aeronautics"
+	task.187FDFFAC87B74DF.title: "Sophisticated Backpacks"
+	task.242440ED248FB6E4.title: "Create: Diesel Generators"
+	task.255A0C0EA338A045.title: "Create: Optical Mod"
+	task.26CAEDD15A11832E.title: "Functional Storage"
+	task.27B388BA3E4F53BB.title: "Train Signs"
+	task.2901F7004A94B543.title: "Create: Enchantment Industries"
+	task.29C6A81EE044541F.title: "Create: Copycats+"
+	task.2C4E9D6D09FC6A20.title: "Storage"
+	task.2F53B4CFB48C167E.title: "Applied Energistics 2"
+	task.3F44EFB8D03AE078.title: "Create: Dreams n' Desires"
+	task.4670985B8FB6BE0D.title: "Other Stuff"
+	task.4CE6A180F98AEE15.title: "Create"
+	task.5036B571D5C14D6C.title: "Mekanism"
+	task.50EA8391ED9B0FA0.title: "Create"
+	task.610B7F43065270EC.title: "Questlines"
+	task.613FA149A19A8B74.title: "Create Propulsion: Simulated"
+	task.6607B03D9B387210.title: "Mekanism"
+	task.68A08846B3956761.title: "Industrial Foregoing"
+	task.71FDFBF3BF66BFA3.title: "Create: Deco"
+	task.73EFA156C29B2134.title: "Create: Offroad"
+	task.780600501BC56612.title: "Generating Rotation"
+	task.7A363A57DEDB112F.title: "Create: Electro Energistics"
+	task.7BE0C69D2AEE7802.title: "Applied Energistics 2"
+	task.7CFD7A8DFC893837.title: "Create: Crafts and Additions"
+	task.7D826F81F4755824.title: "Processes"
+}

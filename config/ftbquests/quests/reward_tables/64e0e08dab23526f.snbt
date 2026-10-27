@@ -1,0 +1,34 @@
+{
+	id: "64E0E08DAB23526F"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "51F22D5DE41ED095", item: { count: 1, id: "create:gearbox" } }
+		{ id: "3D470BC82E016E38", item: { count: 1, id: "create:vertical_gearbox" } }
+		{
+			count: 2
+			id: "1F99D1FD2253C02D"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{ id: "5B5AC88CDE265F57", item: { count: 1, id: "create:large_cogwheel" } }
+		{
+			count: 4
+			id: "58BD88484972F4B2"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+		}
+		{
+			count: 2
+			id: "60B726465C6877EF"
+			item: {
+				count: 1
+				id: "create:encased_chain_drive"
+			}
+		}
+	]
+}

@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_diesel_generators"
+	group: "6755C96651D889F2"
+	icon: {
+		id: "createdieselgenerators:diesel_engine"
+	}
+	id: "2B3215D582072127"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "254620930B3BB129"
+			rewards: [{
+				id: "40B1BE924CE07A4F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "242440ED248FB6E4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["019172D24423D6BB"]
+			icon: {
+				id: "createdieselgenerators:pumpjack_crank"
+			}
+			id: "11E9FB34DEB2A72A"
+			rewards: [
+				{
+					id: "17E31CA7E46C519E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "3075D69A77815288"
+					item: {
+						count: 1
+						id: "createdieselgenerators:crude_oil_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "6F48C1F332CCED75"
+					item: { count: 1, id: "create:andesite_scaffolding" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5F3DB770A7A3E449"
+					item: { count: 1, id: "create:metal_girder" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "12339FB8A45CABEB"
+					item: { count: 1, id: "create:industrial_iron_block" }
+					type: "item"
+				}
+				{
+					id: "6E875BAD95377DB4"
+					item: { count: 1, id: "create:zinc_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "39EAEC6CF646F184"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }
+					type: "item"
+				}
+				{
+					id: "154521161369583E"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_head" }
+					type: "item"
+				}
+				{
+					id: "747F03F0D645D872"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "28AE614E69CD8E67"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_hole" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["254620930B3BB129"]
+			id: "019172D24423D6BB"
+			rewards: [
+				{
+					id: "5FE16EB8FE0E6A1F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0A35C0E5C0BD543A"
+					item: {
+						count: 1
+						id: "createdieselgenerators:crude_oil_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74CD8BF5AF215D99"
+				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["254620930B3BB129"]
+			id: "42E70867903F6D8D"
+			tasks: [{
+				id: "1D76C271CAD56ABA"
+				item: { count: 1, id: "createdieselgenerators:wire_cutters" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["254620930B3BB129"]
+			id: "3CB54C53F1A4BF36"
+			tasks: [{
+				id: "3D14F27EE9A649AD"
+				item: { count: 1, id: "createdieselgenerators:hammer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["254620930B3BB129"]
+			id: "4D86F9BA9A34BAA1"
+			rewards: [{
+				id: "5C1F1F7D5D3F2FBA"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				count: 2L
+				id: "36EA260C7007A787"
+				item: { count: 1, id: "createdieselgenerators:engine_piston" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D86F9BA9A34BAA1"]
+			id: "5228475A96A29779"
+			rewards: [
+				{
+					id: "404E892237F7698A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7070E0FD351BFD5E"
+					item: {
+						count: 1
+						id: "createdieselgenerators:diesel_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51D8E90B5332BBE3"
+				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5228475A96A29779"]
+			id: "17C902AF690D4908"
+			rewards: [
+				{
+					id: "59874A48644A9123"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "08E7E640C6E6BFC2"
+					item: {
+						count: 1
+						id: "createdieselgenerators:diesel_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "201D6EB12AFF90BD"
+				item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["254620930B3BB129"]
+			id: "37D52EBB3A67F65D"
+			rewards: [
+				{
+					id: "573E7C743EDAC745"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "44E441B92E54D4A1"
+					item: {
+						count: 1
+						id: "createdieselgenerators:diesel_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "2C130CCCDE8CAC09"
+				item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5228475A96A29779"]
+			id: "3533CB0ECCD4BAF9"
+			rewards: [{
+				id: "3B81D9DDB88E9615"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "12C33AD13719F4B9"
+				item: { count: 1, id: "createdieselgenerators:engine_silencer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5228475A96A29779"]
+			id: "5B25AB2C28D1D1EC"
+			rewards: [{
+				id: "78C510E2892AC2BD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "1B4329040BF6F697"
+				item: { count: 1, id: "createdieselgenerators:engine_turbocharger" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["254620930B3BB129"]
+			icon: {
+				id: "createdieselgenerators:distillation_controller"
+			}
+			id: "53FA9C4BEBACB94C"
+			rewards: [
+				{
+					id: "0F18FD2BFA08BDEA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "01E199B58DD37BBC"
+					item: {
+						count: 1
+						id: "createdieselgenerators:crude_oil_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "05BC8FD4835E3272"
+					item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "7EBD90AE04AAE248"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F62883EF9D451E3"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+}

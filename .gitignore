@@ -13,3 +13,13 @@ mods/*.jar
 logs/
 crash-reports/
 .cache/
+saves/
+world/
+backups/
+.ftbquests/
+local/ftbquests/
+.cache/
+.fabric/
+.neoforge/
+.forge/
+run/
