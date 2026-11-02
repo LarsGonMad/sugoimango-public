@@ -1,12 +1,12 @@
 name = "SugoiMango Public"
 author = "stofzuiger"
-version = "1.1.0"
+version = "1.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "544f2ef79b5446e469194493f807e6321c5d0bfa82f1958a9245c7bf445f6b81"
+hash = "0127ed20f1c3d067f5054bd8a5cced3a8d082d38a69f96c395002dd45471725f"
 
 [versions]
 minecraft = "1.21.1"

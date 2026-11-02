@@ -43,4 +43,4 @@ jobs:
           prerelease: false
           generate_release_notes: true
           files: |
-            modpack-curseforge-*.zip
+            SugoiMango_Public-*.zip

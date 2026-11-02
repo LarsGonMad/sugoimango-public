@@ -472,6 +472,11 @@
 		{
 			dependencies: ["41053FF32B2CFFE8"]
 			id: "4B9D3B462A9022C9"
+			rewards: [{
+				id: "2FF27C6DBC86B16A"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "708D31786FE1F0EE"
 				item: { count: 1, id: "create:fluid_pipe" }
@@ -654,11 +659,19 @@
 		{
 			dependencies: ["4B9D3B462A9022C9"]
 			id: "776A1821E315C5E6"
-			rewards: [{
-				id: "5837B8961F349CF4"
-				type: "xp"
-				xp: 20
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A56203E62E65281"
+					table_id: 7269056697642209903L
+					type: "random"
+				}
+				{
+					id: "5837B8961F349CF4"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "011A5B32D8828EB7"
 				item: { count: 1, id: "create:smart_fluid_pipe" }
@@ -670,11 +683,19 @@
 		{
 			dependencies: ["58BBD408D21E80F0"]
 			id: "480A9D3F0221F17D"
-			rewards: [{
-				id: "6C393D209853F696"
-				type: "xp"
-				xp: 20
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D92E91A6F5F2052"
+					table_id: 7269056697642209903L
+					type: "random"
+				}
+				{
+					id: "6C393D209853F696"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "1204037F3EE6FF84"
 				item: { count: 1, id: "create:spout" }
@@ -686,11 +707,19 @@
 		{
 			dependencies: ["41053FF32B2CFFE8"]
 			id: "6323E9732AF4E85A"
-			rewards: [{
-				id: "23BF689526B0EE44"
-				type: "xp"
-				xp: 20
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F189E50ECC04B60"
+					table_id: 7269056697642209903L
+					type: "random"
+				}
+				{
+					id: "23BF689526B0EE44"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "5EE0D62E722A3C75"
 				item: { count: 1, id: "create:item_drain" }
@@ -702,11 +731,19 @@
 		{
 			dependencies: ["41053FF32B2CFFE8"]
 			id: "25413F8DDE4F25DC"
-			rewards: [{
-				id: "0EA82D28EFDCBA4A"
-				type: "xp"
-				xp: 20
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3446FD3058380047"
+					table_id: 7269056697642209903L
+					type: "random"
+				}
+				{
+					id: "0EA82D28EFDCBA4A"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "64B9BE59BCE4DE57"
@@ -806,7 +843,7 @@
 				}
 			]
 			tasks: [{
-				count: 25L
+				count: 21L
 				id: "04CFB6938080DCB1"
 				item: { count: 1, id: "create:mechanical_crafter" }
 				type: "item"
