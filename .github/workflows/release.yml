@@ -33,7 +33,7 @@ jobs:
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
           # packwiz modrinth export --output "modpack-${VERSION}.mrpack"
-          packwiz curseforge export --output "modpack-curseforge-${VERSION}.zip"
+          packwiz curseforge export --output "SugoiMango_Public-${VERSION}.zip"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
